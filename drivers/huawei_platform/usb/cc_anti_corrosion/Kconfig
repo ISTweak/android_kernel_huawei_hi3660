@@ -1,6 +1,0 @@
-config CC_ANTI_CORROSION
-	tristate "CC_ANTI_CORROSION support"
-	default n
-	depends on GPIOLIB
-	help
-	  Say Y here to enable GPIO based switch support.
